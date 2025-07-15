@@ -1,0 +1,209 @@
+|main
+k1 => led_g.DATAIN
+k2 => led_r.DATAIN
+led_g << k1.DB_MAX_OUTPUT_PORT_TYPE
+led_r << k2.DB_MAX_OUTPUT_PORT_TYPE
+clk => clk.IN2
+clk0 => clk0.IN1
+clk1 => clk1.IN1
+clk2 => clk2.IN1
+clk3 => clk3.IN1
+rst => input_rst.IN1
+setpw => input_start.IN0
+setpw => always0.IN1
+setpw => input_rst.IN0
+judge => input_start.IN1
+judge => always0.IN1
+judge => staus$latch.LATCH_ENABLE
+judge => countdown.OUTPUTSELECT
+judge => countdown.OUTPUTSELECT
+judge => countdown.OUTPUTSELECT
+judge => countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => clock_countdown.OUTPUTSELECT
+judge => input_rst.IN1
+pos[0] << pos[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[1] << pos[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[2] << pos[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[3] << pos[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[0] << display:s0.port3
+led[1] << display:s0.port3
+led[2] << display:s0.port3
+led[3] << display:s0.port3
+led[4] << display:s0.port3
+led[5] << display:s0.port3
+led[6] << display:s0.port3
+pos_countdown << <VCC>
+led_countdown[0] << display:s1.port3
+led_countdown[1] << display:s1.port3
+led_countdown[2] << display:s1.port3
+led_countdown[3] << display:s1.port3
+led_countdown[4] << display:s1.port3
+led_countdown[5] << display:s1.port3
+led_countdown[6] << display:s1.port3
+staus << staus$latch.DB_MAX_OUTPUT_PORT_TYPE
+g_rst << g_rst~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|mod10counter:u0
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.ACLR
+rst => out[2]~reg0.ACLR
+rst => out[3]~reg0.ACLR
+start => out[0]~reg0.ENA
+start => out[3]~reg0.ENA
+start => out[2]~reg0.ENA
+start => out[1]~reg0.ENA
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|mod10counter:u1
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.ACLR
+rst => out[2]~reg0.ACLR
+rst => out[3]~reg0.ACLR
+start => out[0]~reg0.ENA
+start => out[3]~reg0.ENA
+start => out[2]~reg0.ENA
+start => out[1]~reg0.ENA
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|mod10counter:u2
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.ACLR
+rst => out[2]~reg0.ACLR
+rst => out[3]~reg0.ACLR
+start => out[0]~reg0.ENA
+start => out[3]~reg0.ENA
+start => out[2]~reg0.ENA
+start => out[1]~reg0.ENA
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|mod10counter:u3
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.ACLR
+rst => out[2]~reg0.ACLR
+rst => out[3]~reg0.ACLR
+start => out[0]~reg0.ENA
+start => out[3]~reg0.ENA
+start => out[2]~reg0.ENA
+start => out[1]~reg0.ENA
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|display:s0
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+num[0] => Decoder0.IN3
+num[1] => Decoder0.IN2
+num[2] => Decoder0.IN1
+num[3] => Decoder0.IN0
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.PRESET
+rst => out[2]~reg0.PRESET
+rst => out[3]~reg0.PRESET
+rst => out[4]~reg0.PRESET
+rst => out[5]~reg0.PRESET
+rst => out[6]~reg0.PRESET
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|display:s1
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+num[0] => Decoder0.IN3
+num[1] => Decoder0.IN2
+num[2] => Decoder0.IN1
+num[3] => Decoder0.IN0
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.PRESET
+rst => out[2]~reg0.PRESET
+rst => out[3]~reg0.PRESET
+rst => out[4]~reg0.PRESET
+rst => out[5]~reg0.PRESET
+rst => out[6]~reg0.PRESET
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

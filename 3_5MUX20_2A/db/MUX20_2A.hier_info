@@ -1,0 +1,33 @@
+|MUX20_2A
+a[0] => Mux1.IN6
+a[1] => Mux0.IN6
+b[0] => Mux1.IN7
+b[1] => Mux0.IN7
+c[0] => Mux1.IN8
+c[1] => Mux0.IN8
+d[0] => Mux1.IN9
+d[1] => Mux0.IN9
+e[0] => Mux1.IN10
+e[1] => Mux0.IN10
+f[0] => Mux1.IN11
+f[1] => Mux0.IN11
+g[0] => Mux1.IN12
+g[1] => Mux0.IN12
+h[0] => Mux1.IN13
+h[1] => Mux0.IN13
+i[0] => Mux1.IN14
+i[1] => Mux0.IN14
+j[0] => Mux1.IN15
+j[1] => Mux0.IN15
+s3 => Mux0.IN16
+s3 => Mux1.IN16
+s2 => Mux0.IN17
+s2 => Mux1.IN17
+s1 => Mux0.IN18
+s1 => Mux1.IN18
+s0 => Mux0.IN19
+s0 => Mux1.IN19
+y[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

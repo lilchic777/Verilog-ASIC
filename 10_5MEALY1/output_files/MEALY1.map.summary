@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 21 19:29:27 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : MEALY1
+Top-level Entity Name : MEALY1
+Family : Cyclone IV E
+Total logic elements : 10
+    Total combinational functions : 8
+    Dedicated logic registers : 5
+Total registers : 5
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

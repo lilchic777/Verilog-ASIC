@@ -1,0 +1,377 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -5.357
+TNS   : -314.784
+
+Type  : Slow 1200mV 85C Model Setup 'judge'
+Slack : -4.895
+TNS   : -4.895
+
+Type  : Slow 1200mV 85C Model Setup 'timeout'
+Slack : -2.254
+TNS   : -11.256
+
+Type  : Slow 1200mV 85C Model Setup 'clk0'
+Slack : -1.438
+TNS   : -5.510
+
+Type  : Slow 1200mV 85C Model Setup 'clk3'
+Slack : -1.164
+TNS   : -4.650
+
+Type  : Slow 1200mV 85C Model Setup 'clk2'
+Slack : -1.127
+TNS   : -4.410
+
+Type  : Slow 1200mV 85C Model Setup 'clk1'
+Slack : -1.125
+TNS   : -4.470
+
+Type  : Slow 1200mV 85C Model Hold 'timeout'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk2'
+Slack : 0.897
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk1'
+Slack : 0.903
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk0'
+Slack : 1.085
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk3'
+Slack : 1.087
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'judge'
+Slack : 2.489
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk3'
+Slack : -1.243
+TNS   : -4.933
+
+Type  : Slow 1200mV 85C Model Recovery 'clk0'
+Slack : -1.230
+TNS   : -4.914
+
+Type  : Slow 1200mV 85C Model Recovery 'clk2'
+Slack : -0.950
+TNS   : -3.800
+
+Type  : Slow 1200mV 85C Model Recovery 'clk1'
+Slack : -0.944
+TNS   : -3.776
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -0.629
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 1.116
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk1'
+Slack : 1.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk2'
+Slack : 1.364
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk0'
+Slack : 1.662
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk3'
+Slack : 1.662
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -153.187
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk0'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk1'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk2'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk3'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'judge'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'timeout'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.903
+TNS   : -286.822
+
+Type  : Slow 1200mV 0C Model Setup 'judge'
+Slack : -4.600
+TNS   : -4.600
+
+Type  : Slow 1200mV 0C Model Setup 'timeout'
+Slack : -2.032
+TNS   : -9.904
+
+Type  : Slow 1200mV 0C Model Setup 'clk0'
+Slack : -1.303
+TNS   : -4.982
+
+Type  : Slow 1200mV 0C Model Setup 'clk3'
+Slack : -1.037
+TNS   : -4.140
+
+Type  : Slow 1200mV 0C Model Setup 'clk1'
+Slack : -1.005
+TNS   : -3.963
+
+Type  : Slow 1200mV 0C Model Setup 'clk2'
+Slack : -0.999
+TNS   : -3.919
+
+Type  : Slow 1200mV 0C Model Hold 'timeout'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk2'
+Slack : 0.820
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk1'
+Slack : 0.826
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk3'
+Slack : 0.982
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk0'
+Slack : 0.997
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'judge'
+Slack : 2.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk0'
+Slack : -1.078
+TNS   : -4.281
+
+Type  : Slow 1200mV 0C Model Recovery 'clk3'
+Slack : -1.070
+TNS   : -4.211
+
+Type  : Slow 1200mV 0C Model Recovery 'clk2'
+Slack : -0.757
+TNS   : -3.028
+
+Type  : Slow 1200mV 0C Model Recovery 'clk1'
+Slack : -0.751
+TNS   : -3.004
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -0.474
+TNS   : -3.318
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 1.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk1'
+Slack : 1.261
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk2'
+Slack : 1.267
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk0'
+Slack : 1.505
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk3'
+Slack : 1.513
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -153.187
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk0'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk1'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk2'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk3'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'judge'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'timeout'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.667
+TNS   : -88.647
+
+Type  : Fast 1200mV 0C Model Setup 'judge'
+Slack : -1.505
+TNS   : -1.505
+
+Type  : Fast 1200mV 0C Model Setup 'timeout'
+Slack : -0.372
+TNS   : -1.333
+
+Type  : Fast 1200mV 0C Model Setup 'clk0'
+Slack : -0.073
+TNS   : -0.219
+
+Type  : Fast 1200mV 0C Model Setup 'clk3'
+Slack : 0.019
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk1'
+Slack : 0.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk2'
+Slack : 0.035
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'timeout'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk2'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk1'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk3'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk0'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'judge'
+Slack : 0.930
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk3'
+Slack : -0.050
+TNS   : -0.170
+
+Type  : Fast 1200mV 0C Model Recovery 'clk0'
+Slack : -0.040
+TNS   : -0.145
+
+Type  : Fast 1200mV 0C Model Recovery 'clk2'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk1'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk1'
+Slack : 0.548
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk2'
+Slack : 0.551
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk0'
+Slack : 0.679
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk3'
+Slack : 0.682
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -110.623
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk3'
+Slack : -3.000
+TNS   : -7.264
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk1'
+Slack : -3.000
+TNS   : -7.260
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk2'
+Slack : -3.000
+TNS   : -7.260
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk0'
+Slack : -3.000
+TNS   : -7.258
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'judge'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'timeout'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------

@@ -1,0 +1,28 @@
+|FDIV9
+rst => clk2.OUTPUTSELECT
+rst => n.OUTPUTSELECT
+rst => n.OUTPUTSELECT
+rst => n.OUTPUTSELECT
+rst => n.OUTPUTSELECT
+rst => n.OUTPUTSELECT
+rst => clk1.OUTPUTSELECT
+rst => m.OUTPUTSELECT
+rst => m.OUTPUTSELECT
+rst => m.OUTPUTSELECT
+rst => m.OUTPUTSELECT
+rst => m.OUTPUTSELECT
+clk => m[0].CLK
+clk => m[1].CLK
+clk => m[2].CLK
+clk => m[3].CLK
+clk => m[4].CLK
+clk => clk1.CLK
+clk => n[0].CLK
+clk => n[1].CLK
+clk => n[2].CLK
+clk => n[3].CLK
+clk => n[4].CLK
+clk => clk2.CLK
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

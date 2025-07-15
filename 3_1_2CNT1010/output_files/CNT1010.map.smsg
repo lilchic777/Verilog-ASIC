@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at cnt10.v(10): always construct contains both blocking and non-blocking assignments File: D:/Quartus/PROJECTS_ASIC/3_1_2CNT1010/cnt10.v Line: 10

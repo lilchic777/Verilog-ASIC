@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Jun 22 13:46:53 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : counter5
+Top-level Entity Name : counter5
+Family : Cyclone IV E
+Total logic elements : 7
+    Total combinational functions : 4
+    Dedicated logic registers : 5
+Total registers : 5
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

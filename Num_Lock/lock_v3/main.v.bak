@@ -1,0 +1,8 @@
+module main(k1,k2,led_g,led_r);
+	input k1,k2;
+	output led_g,led_r;
+	reg led_g,led_r;
+	always@(k1,k2)
+		led_g = k1;
+		led_r = k2;	
+endmodule

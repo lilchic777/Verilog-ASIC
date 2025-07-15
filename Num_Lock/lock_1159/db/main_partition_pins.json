@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_g",
+					"strict" : false
+				},
+				{
+					"name" : "led_r",
+					"strict" : false
+				},
+				{
+					"name" : "pos[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pos[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pos[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pos[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led_countdown[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_countdown[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_countdown[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_countdown[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led_countdown[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led_countdown[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led_countdown[6]",
+					"strict" : false
+				},
+				{
+					"name" : "staus",
+					"strict" : false
+				},
+				{
+					"name" : "g_rst",
+					"strict" : false
+				},
+				{
+					"name" : "k1",
+					"strict" : false
+				},
+				{
+					"name" : "k2",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "judge",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "setpw",
+					"strict" : false
+				},
+				{
+					"name" : "clk0",
+					"strict" : false
+				},
+				{
+					"name" : "clk1",
+					"strict" : false
+				},
+				{
+					"name" : "clk3",
+					"strict" : false
+				},
+				{
+					"name" : "clk2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

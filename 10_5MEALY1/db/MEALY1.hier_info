@@ -1,0 +1,25 @@
+|MEALY1
+CLK => PST~1.DATAIN
+DIN1 => Selector1.IN3
+DIN1 => Selector2.IN3
+DIN1 => Selector3.IN3
+DIN1 => Selector4.IN1
+DIN1 => Selector0.IN1
+DIN1 => Selector1.IN1
+DIN1 => Selector2.IN1
+DIN1 => Selector3.IN1
+DIN2 => Selector5.IN3
+DIN2 => Selector7.IN4
+DIN2 => Selector5.IN4
+DIN2 => Selector5.IN1
+DIN2 => Selector8.IN1
+DIN2 => Selector6.IN2
+DIN2 => Selector9.IN2
+RST => PST~3.DATAIN
+Q[0] <= Selector9.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Selector8.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Selector7.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Selector6.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Selector5.DB_MAX_OUTPUT_PORT_TYPE
+
+

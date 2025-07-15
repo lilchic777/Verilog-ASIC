@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at fdiv3.v(9): always construct contains both blocking and non-blocking assignments File: D:/Quartus/PROJECTS_ASIC/5_20FDIV3/fdiv3.v Line: 9
+Warning (10268): Verilog HDL information at fdiv3.v(13): always construct contains both blocking and non-blocking assignments File: D:/Quartus/PROJECTS_ASIC/5_20FDIV3/fdiv3.v Line: 13

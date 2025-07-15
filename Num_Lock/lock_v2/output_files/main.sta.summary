@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -4.790
+TNS   : -476.282
+
+Type  : Slow 1200mV 85C Model Setup 'timeout'
+Slack : -3.377
+TNS   : -25.240
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'timeout'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -0.605
+TNS   : -4.235
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 1.091
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -231.998
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'timeout'
+Slack : -1.487
+TNS   : -13.383
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.401
+TNS   : -430.399
+
+Type  : Slow 1200mV 0C Model Setup 'timeout'
+Slack : -3.126
+TNS   : -22.983
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'timeout'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -0.453
+TNS   : -3.171
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 0.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -231.998
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'timeout'
+Slack : -1.487
+TNS   : -13.383
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.439
+TNS   : -116.552
+
+Type  : Fast 1200mV 0C Model Setup 'timeout'
+Slack : -0.866
+TNS   : -5.672
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'timeout'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : 0.285
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.481
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -167.195
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'timeout'
+Slack : -1.000
+TNS   : -9.000
+
+------------------------------------------------------------

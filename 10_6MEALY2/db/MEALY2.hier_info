@@ -1,0 +1,30 @@
+|MEALY2
+CLK => Q[0]~reg0.CLK
+CLK => Q[1]~reg0.CLK
+CLK => Q[2]~reg0.CLK
+CLK => Q[3]~reg0.CLK
+CLK => Q[4]~reg0.CLK
+CLK => PST~1.DATAIN
+DIN1 => PST.st1.DATAIN
+DIN1 => PST.st0.DATAIN
+DIN2 => Selector3.IN3
+DIN2 => Selector4.IN3
+DIN2 => Selector2.IN4
+DIN2 => Selector3.IN4
+DIN2 => Selector0.IN1
+DIN2 => Selector1.IN2
+DIN2 => Selector3.IN1
+DIN2 => Selector3.IN2
+RST => PST~3.DATAIN
+RST => Q[4]~reg0.ENA
+RST => Q[3]~reg0.ENA
+RST => Q[2]~reg0.ENA
+RST => Q[1]~reg0.ENA
+RST => Q[0]~reg0.ENA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
